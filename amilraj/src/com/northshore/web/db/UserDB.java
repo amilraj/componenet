@@ -19,7 +19,6 @@ public class UserDB {
             resulset = statement.executeQuery("SELECT * FROM USERDETAIL ");
             writeResultset(resulset);
 
-
         } catch (Exception ex) {
             ex.printStackTrace();
         }
@@ -39,12 +38,7 @@ public class UserDB {
             System.out.println(password);
             System.out.println(FirstName);
             System.out.println(LastName);
-
-
-
         }
-
-
     }
 
     public static void main(String[] args) throws Exception {
